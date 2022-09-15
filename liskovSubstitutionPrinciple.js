@@ -13,11 +13,7 @@ class Bird {
 //Subclases
 
 // Cumplen LSP
-class Pigeon extends Bird {
-  tweet() {
-    return `${name} PIO`;
-  }
-}
+class Pigeon extends Bird {}
 
 //No cumplen LSP
 class Chicken extends Bird {
